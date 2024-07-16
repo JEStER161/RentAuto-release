@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>pictures/bmw_m5_competition_2.jpg</file>
+        <file>pictures/Mercedes_g63_amg_2.jpg</file>
+        <file>pictures/Zeekr_001_2.jpg</file>
+        <file>pictures/Bentley_Continental-2.jpg</file>
+        <file>pictures/Rolls_Royce_Wraith-2.jpg</file>
+        <file>pictures/audi_a5-2.jpg</file>
+        <file>pictures/bmw_m3-2.jpg</file>
+        <file>pictures/bmw_m8-2.jpg</file>
+        <file>pictures/bmw_xm-2.jpg</file>
+        <file>pictures/bmw_z4-2.jpg</file>
+        <file>pictures/camaro-2.jpg</file>
+        <file>pictures/Dodge_challenger-2.jpg</file>
+        <file>pictures/lamborghini_urus-2.jpg</file>
+        <file>pictures/lixiang_l9-2.jpg</file>
+        <file>pictures/mercedes_maybach-2.jpg</file>
+        <file>pictures/Porsche_718-2.jpg</file>
+        <file>pictures/Porsche_macan-2.jpg</file>
+        <file>pictures/lamborghini_huracan-2.jpg</file>
+    </qresource>
+</RCC>

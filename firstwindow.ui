@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FirstWindow</class>
+ <widget class="QMainWindow" name="FirstWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>678</width>
+    <height>267</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>678</width>
+    <height>267</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>678</width>
+    <height>267</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>0</y>
+      <width>400</width>
+      <height>267</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>400</width>
+      <height>267</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/img/pictures/bmw_m5_competition_2.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-7</y>
+      <width>281</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="day">
+       <property name="text">
+        <string>Выберите дни аренды:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>13</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>  С:                                    По:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>-1</number>
+         </property>
+         <item>
+          <widget class="QDateEdit" name="from">
+           <property name="calendarPopup">
+            <bool>true</bool>
+           </property>
+           <property name="date">
+            <date>
+             <year>2024</year>
+             <month>7</month>
+             <day>14</day>
+            </date>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="to">
+           <property name="calendarPopup">
+            <bool>true</bool>
+           </property>
+           <property name="date">
+            <date>
+             <year>2024</year>
+             <month>7</month>
+             <day>15</day>
+            </date>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="car">
+       <property name="text">
+        <string>Выберите автомобиль:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>BMW M5 Competition</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lamborghini Huracan Perfomante</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bentley Continental GT W12</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mercedes G63 AMG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rolls Royce Wraith</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Zeekr 001</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Audi A5 Sportback</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BMW M3 Competition</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BMW М8 Competition</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BMW XM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BMW Z4 M40i</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chevrolet Camaro</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dodge Challenger III R/T</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lamborghini Urus</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lixiang L9</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mercedes Maybach S680</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Porsche 718 Boxster S</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Porsche Macan</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="cost">
+       <property name="font">
+        <font>
+         <pointsize>17</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Стоимость:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Арендовать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Назад</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="admin">
+         <property name="font">
+          <font>
+           <fontweight>Thin</fontweight>
+          </font>
+         </property>
+         <property name="text">
+          <string>Администрация</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
